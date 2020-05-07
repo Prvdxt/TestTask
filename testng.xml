@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<suite name="UI Test">
+	<test name="Sample test">
+		<classes>
+			<class name="UICheckTest" />
+			<class name="VerifyElementIsSearchedWithoutMatchCase.java" />
+			<class name="VerifyElementIsSearchedWithMatchCase.java" />
+		</classes>
+	</test>
+</suite>
